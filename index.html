@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menna.R Medical Center</title>
+</head>
+<body>
+    <div class="banner">
+
+    </div>
+    <div class="about">
+
+        <h3>Welcome to Menna.R Medical Center</h3>
+        <p>Here Where you can all the medical services you need in your daily life</p>
+        <p style="margin-bottom: 30px;">if you want to order your medicine or you want to book for a consultation whether in online or offline at the clinics all you need just to fill the form below and we will get in touch with you</p>
+        <a href="tel:00201000233020">Contact us now</a>
+        <a href="https://wa.link/43k2ft">Whatsapp us now</a>
+       </div>
+    <div class="service">
+        <div>
+            <img src="./Images/3.avif" alt="services">
+        </div>
+        <div class="responsive">
+            <h2>Book your desired services </h2>
+            <form onsubmit="validateForm(event)">
+                <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="" required><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="" required><br>
+  <label for="email">Your email:</label><br>
+  <input type="email" id="email" name="email" value="" required><br>
+  <label for="phone">Your mobile number :</label><br>
+  <input type="tel" id="phone" name="phone" value="" required><br>
+  <label for="location">Your location :</label><br>
+  <input type="text" id="location" name="location" value=""><br>
+  <label for="complaints">Your Complaints:</label><br>
+  <input type="text" id="complaints" name="complaints" value=""><br>
+  <label for="assurance">Your Assurance number :</label><br>
+  <input type="text" id="assurance" name="assurance" value=""><br>
+
+  <label for="cars">Choose your service:</label><br>
+    <select id="services" name="services">
+     <option value="Order medicine">Order medicine</option>
+     <option value="Online consultation">Online consultation</option>
+     <option value="Home consultation">Home consultation</option>
+     <option value="Clinic visit">Clinic visit</option>
+    </select>
+              
+              
+              <br><br>
+              <input type="submit" value="Order Now" id="submit" >
+              </form>
+          
+        </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url("./Images/5.webp") ;
+    width: 100%;
+    height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service{
+    display: flex;
+   margin: 40px auto;
+    width: 80%;
+
+}
+.service div{
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about a{
+    border-radius: 5px;
+    background-color: #79befa;
+    padding: 4px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.service img{
+    width: 100%;
+    border-radius: 10px;
+    height: 580px;
+}
+
+.about{
+    padding: 20px 15%;
+    text-align: center;
+}
+h2{
+    
+    font-size: 30px;
+    color: #79befa;
+    font-weight: 600;
+    
+}
+h3{
+    font-size: 24px;
+    color: #79befa;
+}
+
+form input{
+    width:90%;
+    border: 1px solid #c4bebe;
+    height: 18px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+form select{
+    width: 90%;
+    border: 1px solid #c4bebe;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+form #submit{
+background-color: #79befa;
+height: 30px;
+margin-bottom: 50px;
+
+}
+
+/* responsive mode  */
+
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        height: 200px;
+    }
+    .about{
+        padding: 20px 10%;
+        font-size: 15px;
+    }
+    .about h3{
+        font-size: 21px;
+    }
+    h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .service{
+        display: block;
+        width: 100%;
+    }
+    .service div{
+        width: 100%;
+        padding: 0;
+        
+    }
+    .service img{
+        width: 90%;
+        height: auto;
+        display: flex;
+        margin: 20px auto;
+    }
+    .service .responsive{
+padding: 20px;
+width: 90%;
+    }
+    form input, form select{
+        width: 100%;
+    }
+   
+}
